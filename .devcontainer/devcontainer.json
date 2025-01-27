@@ -1,0 +1,14 @@
+{
+    "name": "Go Project",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "customizations": {
+        "vscode": {
+        "settings": {
+        "go.useLanguageServer": true
+    },
+    "extensions": [
+      "golang.go"
+    ]
+  }
+}
+}
